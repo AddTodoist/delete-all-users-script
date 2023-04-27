@@ -1,0 +1,15 @@
+{
+  "name": "addtodoist-delete-all-users",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A script to revoke todoist tokens and delete users from DB",
+  "type": "module",
+  "main": "index.js",
+  "author": "David Jiménez <dubisdev@gmail.com> (https://dubis.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "4.1.1",
+    "dotenv": "16.0.3",
+    "mongoose": "7.0.5"
+  }
+}
